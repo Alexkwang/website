@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="scotchApp">
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/themes/theme-1.css" id="skin_color">
+    <link href="/stylesheets/styles.css" rel="stylesheet"/>
+   <link href="/stylesheets/plugins.css" rel="stylesheet"/>
+    <link href="/stylesheets/main.css" rel="stylesheet"/>
+     
+    <!--
+    <script src="http://cdn.bootcss.com/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="http://cdn.bootcss.com/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
+   -->
+
+  </head>
+  <body ng-controller="mainController">
+
+  <div id="app">
+    
+    <div class="app-content">
+
+ <div class="row">
+ <div class="col-md-12">
+       <div >
+                   <span><a href="#/"><img style="width:200px; hight:40px; margin-left:270px; margin-top:10px;"  src="./images/system/logo.png"></a></span> 
+                </div>
+                </div>
+    </div>
+
+
+     <div class="row">
+       <div class="col-md-12">
+                    <nav id="cl-effect-3" class="links cl-effect-3">
+                        <a href="#/">首页</a>
+                        <a href="#/company">公司理念</a>
+                        <a href="#/news">新闻资讯</a>
+                        <a href="#/planProject">规划项目</a>
+                        <a href="#/buildProject">建筑项目</a>
+                        <a href="#/teamInfo">团队信息</a>
+                        <a href="#/aboutus">关于我们</a>
+                    </nav>
+                 
+                </div>
+     </div>
+
+      <div class="main-content margin-top-0" >
+        
+        <div class="wrap-content container" id="container">
+          
+           <div ng-view></div>
+
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- start: FOOTER -->
+    
+      <div class="col-md-12 margin-bottom-5">
+      
+          <div class="margin-bottom-10">
+            &copy; <span class="current-year"></span><span class="text-bold text-uppercase">nine-urbanplanning and design co.ltd</span>. <span>All rights reserved</span>
+          </div>
+     
+      </div>
+        
+      <!-- end: FOOTER -->
+  </div>
+
+
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+      
+     <script src="/javascripts/angular.js"></script>
+     <script src="/javascripts/angular-route.js"></script>
+     <script src="/javascripts/app.js"></script>
+  
+
+  </body>
+</html>
