@@ -1,4 +1,21 @@
 
+.left_line_1_image img{ width:620px; height:240px;}
+.left_line_2_image_1 img{width:152px;height:80px;float: left; }
+.left_line_2_image_2 img{width:152px;height:80px; float: left; margin-left: 4px;}
+.left_line_2_image_3 img{width:152px;height:80px; float: left; margin-left: 4px;}
+.left_line_2_image_4 img{width:152px;height:80px;  margin-left: 4px;}
+.left_line_3_image_1 img{width:310px;height:130px; float:left; cursor: pointer;}
+.left_line_3_image_2 img{width:305px;height:130px; margin-left:4px; cursor: pointer;}
+
+.right_line_2_image_1 img{width: 101px;height: 82px; float:left;cursor: pointer;}
+.right_line_2_image_2 img{width: 101px;height: 82px; margin-left:4px; float:left;cursor: pointer;}
+.right_line_2_image_3 img{width: 102px;height: 82px; margin-left:4px; float:left; cursor: pointer;}
+
+
+
+
+
+
 body{margin:0;}
  #obody{position: relative; overflow: hidden; height: 600px;}
  #ibody{position: absolute;top: 0; left: 0; height: 700px;}
