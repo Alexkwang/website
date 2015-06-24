@@ -1,38 +1,4 @@
 
-.clare_margin_left {margin-left: -30px;}
-.clare_padding_left {padding-left: -15px;}
-.left_line_1_image img{ width:544px; height:240px;}
-
-.left_line_2_image_1 img{width:133px;height:80px; display:inline; margin-top:4px;cursor: pointer; }
-.left_line_2_image_2 img{width:133px;height:80px; float: left; display:inline; margin-left:8px; margin-top:4px;cursor: pointer; }
-.left_line_2_image_3 img{width:133px;height:80px; float: left; display:inline; margin-left:8px; margin-top:4px;cursor: pointer; }
-.left_line_2_image_4 img{width:133px;height:80px; float: left; display:inline; margin-left:8px; margin-top:4px;cursor: pointer; }
-
-.left_line_3_image_1 img{width:310px;height:130px; float:left; display:inline; margin-left:4px; margin-top:4px;cursor: pointer; }
-.left_line_3_image_2 img{width:305px;height:130px; float:left; display:inline; margin-left:4px; margin-top:4px;cursor: pointer;}
-
-.right_line_1_right_image{ height: 261px; margin-left:4px; float:left; display:inline;cursor: pointer;}
-
-.right_line_1_left_image_1 { width:206px; height:142px; display:inline;cursor: pointer;overflow:hidden}
-.right_line_1_left_image_1 img{width: 206px;height: 142px; display:inline; overflow:hidden;cursor: pointer;}
-.right_line_1_left_image_2 img{width: 101px;height: 144px; margin-top:4px; float:left; display:inline; overflow:hidden;cursor: pointer;}
-.right_line_1_left_image_3 img{width: 101px;height: 144px; margin-top:4px; margin-left:4px; float:left; display:inline;cursor: pointer;}
-
-
-
-.right_line_2_image_1 img{width: 101px;height: 82px; float:left;cursor: pointer;}
-.right_line_2_image_2 img{width: 101px;height: 82px; margin-left:4px; float:left;cursor: pointer;}
-.right_line_2_image_3 img{width: 102px;height: 82px; margin-left:4px; float:left; cursor: pointer;}
-
-
-.right_line_3_image_1 img{width:65px;height:70px;float:left; display:inline;cursor: pointer;}
-.right_line_3_image_2 img{width:65px;height:70px;float:left; margin-left:4px; display:inline;cursor: pointer;}
-.right_line_3_image_2 img{width:65px;height:70px;float:left; margin-left:4px; display:inline;cursor: pointer;}
-.right_line_3_image_2 img{width:65px;height:70px;float:left; margin-left:4px; display:inline;cursor: pointer;}
-
-
-
-
 body{margin:0;}
  #obody{position: relative; overflow: hidden; height: 600px;}
  #ibody{position: absolute;top: 0; left: 0; height: 700px;}
