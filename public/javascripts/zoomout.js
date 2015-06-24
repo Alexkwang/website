@@ -44,9 +44,9 @@
 
                 
 
-                        var zoom_left = position.left - (zoom_width-init_width-515)/2;
+                        var zoom_left = position.left - (zoom_width-init_width)/2;
 
-                        var zoom_top = position.top - (zoom_height-init_height-267)/2;
+                        var zoom_top = position.top - (zoom_height-init_height)/2;
 
 
                         $(".clonedItem").animate({
